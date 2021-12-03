@@ -1,0 +1,1220 @@
+/**
+Theme Name: samaaresorts child
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Description: A child theme of Startit Theme
+Author: Pitch Themes
+Author URI: http://themeforest.net/user/select-themes
+Version: 3.0.51
+Template: samaaresorts
+**/
+
+@import url("../samaaresorts/style.css");
+@font-face {
+	font-family: 'Oswald-Regular';
+	src: url(fonts/Oswald-Regular.otf);
+	src: url(fonts/Oswald-Regular.eot) format("embedded-opentype"), url(fonts/Oswald-Regular.woff2) format("woff2"), url(fonts/Oswald-Regular.woff) format("woff"), url(fonts/Oswald-Regular.ttf) format("truetype"), url(fonts/Oswald-Regular.svg#Oswald-Regular) format("svg")
+}
+a {
+    color: #f1592a;}
+body {
+    letter-spacing: .8px;
+    font-weight: normal !important;
+	font-family: Oswald-Regular;
+}
+h1 {
+    font-family: oswald-regular, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 48px;
+}
+.ornge{color:#f1592a !important;}
+article#post-75 li:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    color: red; /* or whatever color you prefer */
+    margin-right: 4px;
+}
+ul {
+    list-style-type: none !important;
+    padding-left: 0px !important;
+}
+/*a.et-cart-info {
+    display: none;
+}*/
+div#et-info {
+    width: 100%;
+}
+#top-header .et-social-icons {
+    float: right;
+}
+div#footer-info a {
+    color: #f1592a;
+    font-weight: 100;
+}
+/*cart page table*/
+h1.awebooking-informations__title {
+    font-size: 30px;
+}
+.awebooking-informations__table td {
+    font-size: 15px;
+    padding: 15px 10px;
+    font-weight: 100;
+}
+/*header menu*/
+ul#top-menu li.current-menu-item a {
+    background: #f1592a;
+    color: #ffff;
+    padding: 8px 35px;
+    height: 16px;
+    line-height: 1.6;
+    margin: 0px;
+    border-radius: 6px;
+}
+.et_header_style_left .et-fixed-header #et-top-navigation nav>ul>li>a, .et_header_style_split .et-fixed-header #et-top-navigation nav>ul>li>a {
+    padding-bottom: 30px;
+}
+
+/*slider css*/
+div#flslidr {
+	top: 0; 
+    bottom: 0;
+    /*position: absolute;*/
+    width: 100%;
+    height: 100%;
+	 transform: translateY(-123px);
+    top: 0px;
+}
+h3.uk-h3 {
+    color: #fff;
+    font-size: 75px;
+    text-shadow: 3px 4px 6px #000;padding-bottom: 0px;
+}
+div#beloslider .uk-margin p {
+    color: #fff;
+	 text-shadow: 3px 4px 6px #000;
+	     font-size: 30px;
+}
+.uk-overlay-background {
+    background: rgba(255, 255, 255, 0);
+    color: #444;
+}
+div#flslidr .uk-margin p {
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 3px 4px 6px #000;
+	line-height: 2;
+}
+div#flslidr *+.uk-margin {
+    margin-top: 3px;
+}
+a.readmore_s {
+    color: rgb(255, 255, 255);
+    margin-top: 33px;
+    background: rgb(241, 89, 42);
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 8px 23px;
+    text-shadow: none;
+	    text-transform: uppercase;
+}
+a.readmore_s:hover{ background: #000;}
+.uk-dotnav-contrast>*>* {
+    background: #c9c9c9;
+}
+.uk-dotnav>*>* {
+    width: 15px;
+    height: 15px;
+}
+/*slider css end*/
+article#post-138 .awebooking-field.awebooking-arrival-field {
+    width: 20%;
+    float: left;
+}
+article#post-138 input#end-date-placeholder-5a72f25c89561 {
+    width: 95%;
+    margin-left: 10px;
+    /* float: left; */
+}
+article#post-138 .awebooking-field.awebooking-departure-field {
+    /* width: 20%; */
+    float: left;
+}
+article#post-138 .awebooking-check-form.has-children .awebooking-sidebar-group .awebooking-field, .awebooking-check-form.has-infants .awebooking-sidebar-group .awebooking-field {
+    width: 30%;
+}
+article#post-138 button.awebooking-btn {
+    width: auto;
+    float: left;
+}
+article#post-138 button.awebooking-btn {
+    width: auto;
+    float: left;
+    /* display: table; */
+}
+
+article#post-138 .awebooking-check-form.has-children .awebooking-sidebar-group .awebooking-field, .awebooking-check-form.has-infants .awebooking-sidebar-group .awebooking-field {
+    width: 30% !important;
+}
+
+article#post-138 button.awebooking-btn {
+	font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif;
+    width: auto !important;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: -68px;
+    padding: 11px 26px;
+}
+article#post-138 .awebooking-field.awebooking-departure-field {
+    margin-left: 9px;
+    margin-right: 4px;
+}
+
+.awebooking-notice {
+    padding: 10px 15px !important;
+    color: #ff001e;
+    background-color: #f1041e40;
+    margin-bottom: 15px;
+    border: 1px solid #ea0000;
+    border-radius: 3px;
+}
+.slick-slide img {
+    cursor: pointer;
+}
+
+
+
+article#post-576 .awebooking-field.awebooking-arrival-field {
+    width: 20%;
+    float: left;
+}
+article#post-576 input#end-date-placeholder-5a72f25c89561 {
+    width: 95%;
+    margin-left: 10px;
+    /* float: left; */
+}
+article#post-576 .awebooking-field.awebooking-departure-field {
+    /* width: 20%; */
+    float: left;
+}
+article#post-576 .awebooking-check-form.has-children .awebooking-sidebar-group .awebooking-field, .awebooking-check-form.has-infants .awebooking-sidebar-group .awebooking-field {
+    width: 30%;
+}
+article#post-576 button.awebooking-btn {
+    width: auto;
+    float: left;
+}
+article#post-576 button.awebooking-btn {
+    width: auto;
+    float: left;
+    /* display: table; */
+}
+
+article#post-576 .awebooking-check-form.has-children .awebooking-sidebar-group .awebooking-field, .awebooking-check-form.has-infants .awebooking-sidebar-group .awebooking-field {
+    width: 30% !important;
+}
+
+article#post-576 button.awebooking-btn {
+	font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif;
+    width: auto !important;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: -68px;
+    padding: 11px 26px;
+}
+article#post-576 .awebooking-field.awebooking-departure-field {
+    margin-left: 9px;
+    margin-right: 4px;
+}
+form#awebooking-checkout-form {
+    display: none;
+}
+
+ul.room_types {
+    /*display: flex;*/
+    list-style-type: none;
+}
+
+li.room_type.type-room_type.status-publish.has-post-thumbnail {
+    display: grid;
+    width: 50%;
+    float: left;
+}
+div#sidebar .awebooking-check-form {
+    padding: 0 !important;
+	   
+}
+div#sidebar button.awebooking-btn {
+    padding: 8px;
+}
+.awebooking-loop-room-type__button-booking{
+    color: #fff;
+    background-color: #f1592a;
+    border-color: #f1592a;
+    border-radius: 3px;
+}
+.awebooking-loop-room-type__button-booking:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+div#container {
+    position: relative;
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+}
+.awebooking-check-form {
+    background-color: #fafafa;
+    border: 1px solid #e3e3e3;
+    padding: 20px;
+	border-radius: 4px;
+}
+.awebooking-field-group .awebookingf, .awebooking-field-group .fa, .awebooking-field-group .icon {
+    color: #f1592a;
+}
+button.awebooking-btn {
+	cursor:pointer;
+    background: #f1592a;
+    border: 0;
+    color: #fff;
+    margin-top: 12px;
+    border-radius: 3px;
+	    padding: 10px;
+		    text-transform: uppercase;
+}
+button.awebooking-btn:hover {
+	cursor:pointer;
+    background: #000;
+}
+.woocommerce form .form-row.woocommerce-validated .select2-container, .woocommerce form .form-row.woocommerce-validated input.input-text, .woocommerce form .form-row.woocommerce-validated select {
+    border-color: #89898996;
+    padding: 14px;
+}
+#add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment {
+    background: #ebe9eb;
+    border-radius: 5px;
+    padding: 15px;
+}
+/*******************home page hover effect css start******************************/
+.snip1361 {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #141414;
+  text-align: left;
+  line-height: 1.4em;
+  font-size: 16px;
+  box-shadow: 0px 0px 5px #c4c4c4;
+  height: 350px;
+  background: #f2693f;
+  font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif;
+}
+.snip1361 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1361 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1361 figcaption {
+  position: absolute;
+  top: calc(62%);
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 0px;
+}
+.snip1361 figcaption:before {
+  position: absolute;
+  content: '';
+  z-index: 2;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-image: -webkit-linear-gradient(top, transparent 0%, #ffffff00 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, #ffffff00 100%);
+}
+.snip1361 h3,
+.snip1361 p {
+  margin: 0 0 10px;
+}
+.snip1361 h3 {
+       font-weight: 300;
+    font-size: 1.3em;
+    line-height: 1em;   
+	font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    color: #f1592a;
+}
+.snip1361 p {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+.snip1361 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.snip1361:hover figcaption,
+.snip1361.hover figcaption {
+  top: 0px;
+}
+
+ button.chck{
+       font-size: 16px;
+    background: #fff0;
+    border: 2px solid #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    color: #fff;
+    margin: 50px auto;
+    float: none;
+    text-align: center;
+	font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif;
+}
+p.vw_rooms{
+	background: #f1592a;
+    width: 100% !important;
+    text-align: center;
+    padding: 25px;
+	margin: 0px;
+}
+p.view{
+    color: #4d4d4d;
+    font-size: 14px;
+	margin-bottom: 0;text-transform: none;padding-bottom: 0px;
+}
+.per{
+    color: #4d4d4d;
+    font-size: 14px;text-transform: none;
+}
+p.price{
+    color: #4d4d4d;
+    font-size: 24px;
+}
+h3 p {
+    padding-bottom: 0;
+}
+.center {
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+/*****************home page hover effect css end*****************************/
+
+img.wptripadvisor_t1_IMG_4 {
+    display: none;
+}
+#wprev-slider-1 .wprev_preview_bg1_T1::after {
+   display: none;
+}
+#wprev-slider-1 .wprev_preview_bg1_T1 {
+    background: #f5f5f5 !important;
+}
+a.wprs_unslider-arrow {
+    margin-top: -60px;
+}
+a.ta_morelink {
+    color: #f1592a;
+}
+span#et-info-email {
+    color: #f1592a;
+}
+
+div#footer-info {
+    width: 100%;
+    text-align: center;
+}
+/****single room css********/
+h1.awebooking-room-type__title.h2 {
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 1em;
+    font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif;
+    text-transform: uppercase;
+    padding: 29px 0 10px 10px;
+    color: #f1592a;
+}
+ .awebooking-room-type__header .awebooking-room-type__price {
+    border-bottom: none;
+    color: #4d4d4d;
+    font-size: 14px;
+    margin-bottom: 0;
+    text-transform: none;
+    padding-bottom: 15px;
+}
+.awebooking-tab__controls li a {
+    color: #4d4d4d;
+}
+.awebooking-tab__controls .active a {
+    color: #ffffff;
+    opacity: 1;
+    font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif;
+    background: #f1592a;
+}
+article#post-7 input.awebooking-btn {
+    background: #f1592a;
+    border: 0;
+    color: #fff;
+    margin-top: 18px;
+    border-radius: 3px;
+    padding: 8px 34px;
+	    text-transform: uppercase; cursor:pointer;
+}
+article#post-7 input.awebooking-btn:hover {background:#000;
+}
+button#place_order{
+    background: #f1592a;
+    border: 0;
+    color: #fff;
+    margin-top: 18px;
+    border-radius: 3px;
+    padding: 8px 34px; cursor:pointer;
+}
+button#place_order:hover{background:#000;}
+
+
+
+.mobile_menu_bar:before{color: #f1592a;}
+
+
+.uk-panel-teaser, .uk-panel-title {
+    margin-bottom: 0px !important;
+}
+.uk-overlay {
+   
+    max-width: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+    -webkit-transform: translateZ(0);
+    margin: 0;
+}
+.uk-overlay-scale {
+    -webkit-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+}
+.uk-dotnav>li>a{
+    border: 2px solid #f1592a !important;
+}
+.uk-dotnav-contrast>*>* {
+    background: #1b1b1b82;
+}
+.uk-dotnav>*>* {
+    width: 10px;
+    height: 10px;
+}
+.uk-dotnav-contrast>*>:active, .uk-dotnav-contrast>.uk-active>* {
+    background: rgb(241, 89, 42);
+}
+.uk-dotnav-contrast>*>* {
+    background: #f1592a1f;
+}
+
+.uk-dotnav>.uk-active>* {
+    background: rgb(241, 89, 42);
+}
+.wprs_unslider-nav ol li.wprs_unslider-active {
+    background: #f1592a;
+}
+.wprs_unslider-nav ol li {
+    width: 15px;
+    height: 15px;
+    margin: 0 4px;
+    background: transparent;
+    border-radius: 10px !important;
+    border: 2px solid #f1592a;
+    cursor: pointer;
+}
+.et_right_sidebar #sidebar {
+    padding-left: 0;
+}
+#main-content .container:before {
+    background-color: #ffffff00;
+}
+h4.widgettitle {
+    text-align: center;
+}
+li#tab-title-calendar {
+    display: none;
+}
+
+
+ul#menu-footer {
+    text-align: center;
+    font-weight: 100;
+    font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif;
+}
+.bottom-nav a {
+    font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif !important;
+    font-weight: 100;
+}
+
+.sstyle ul li:before {
+    content: "\f155";
+    /* display: inline-block; */
+    -webkit-font-smoothing: antialiased;
+    font: normal 16px/1 'dashicons';
+    color: #f1592a;
+    margin-right: 10px;
+    word-wrap: break-word;
+}
+.awebooking-informations__wrapper {
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+button.awebooking-btn {
+        font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif !important;
+    padding: 8px 23px;
+}
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
+    float: right;
+    font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif !important;
+    padding: 8px 23px;
+    font-size: 16px;
+}
+nav.woocommerce-MyAccount-navigation li a {
+    color: #f1592a;
+}
+a.button.pay {
+    background: #f1592a;
+    border: 0px;
+    color: #fff;
+    font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif !important;
+    padding: 8px 23px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+a.button.pay:hover{border:0; padding:8px 23px;}
+a.woocommerce-button.button:hover{border:0;padding:8px 23px;}
+a.woocommerce-button.button {
+    /* float: left; */
+    margin-left: 10px;
+    background: #f1592a;
+    border: 0px;
+    color: #fff;
+    font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif !important;
+    padding: 5px 18px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+a.woocommerce-Button.button {
+    background: #f15d30;
+    border: 0;
+    padding: 5px 18px;
+	font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif !important;
+}
+a.woocommerce-Button.button:hover {
+    background: #000;
+    border: 0;
+    padding: 5px 18px !important;
+	font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif !important;
+}
+a.woocommerce-button.button.pay {
+    padding: 8px 23px;
+}
+a.woocommerce-button.button.view{padding: 8px 23px;}
+a.woocommerce-button.button.cancel{padding: 8px 23px;}
+
+#et-info-email:before, #et-info-phone:before, #et_search_icon:before, .comment-reply-link:after, .et-cart-info span:before, .et-pb-arrow-next:before, .et-pb-arrow-prev:before, .et-social-icon a:before, .et_audio_container .mejs-playpause-button button:before, .et_audio_container .mejs-volume-button button:before, .et_overlay:before, .et_password_protected_form .et_submit_button:after, .et_pb_button:after, .et_pb_contact_reset:after, .et_pb_contact_submit:after, .et_pb_font_icon:before, .et_pb_newsletter_button:after, .et_pb_pricing_table_button:after, .et_pb_promo_button:after, .et_pb_social_icon a.icon:before, .et_pb_testimonial:before, .et_pb_toggle_title:before, .form-submit .et_pb_button:after, .mobile_menu_bar:before, .woocommerce #content input.button.alt:after, .woocommerce #content input.button:after, .woocommerce #respond input#submit.alt:after, .woocommerce #respond input#submit:after, .woocommerce a.button.alt:after, .woocommerce button.button.alt:after, .woocommerce button.button:after, .woocommerce button.single_add_to_cart_button.button:after, .woocommerce input.button.alt:after, .woocommerce input.button:after, .woocommerce-page #content input.button.alt:after, .woocommerce-page #content input.button:after, .woocommerce-page #respond input#submit.alt:after, .woocommerce-page #respond input#submit:after, .woocommerce-page a.button.alt:after, .woocommerce-page a.button:after, .woocommerce-page button.button.alt:after, .woocommerce-page button.button:after, .woocommerce-page input.button.alt:after, .woocommerce-page input.button:after, a.et_pb_more_button:after{display:none;padding: 5px 18px}
+ .woocommerce-page a.button.alt:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button.alt:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button.alt:hover, .woocommerce-page input.button:hover{background: rgb(241, 89, 42);
+    color: #fff;padding: 5px 18px; border:0px; background:#000;}
+
+.woocommerce-page a.button:hover{padding: 8px 23px;}
+.woocommerce .woocommerce-error, .woocommerce .woocommerce-info {
+    background: #f22e4021;
+    color: #e41111 !important;
+    border: 1px solid #f71010 !important;
+    border-radius: 4px;
+    font-size: 16px !important;
+}
+.woocommerce .woocommerce-message{background: #10a53721;
+    color: #098018 !important;
+    border: 1px solid #0bb949 !important;
+    border-radius: 4px;
+    font-size: 16px !important;}
+button.woocommerce-Button.button {
+    background: #f1592a;
+    border: 0px;
+    color: #fff;
+    font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif !important;
+    padding: 5px 18px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+a.button {
+    background: rgb(241, 89, 42) !important;
+    color: #fff!important;
+    padding: 5px 18px!important;
+    border: 0px!important;
+	font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif !important;
+}
+a.button:hover {
+    color: #fff!important;
+    padding: 5px 18px!important; 
+    border: 0px!important;
+    background: #000 !important;
+	font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif !important;
+}
+
+li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--downloads {
+    display: none;
+}
+button.button {
+    background: rgb(241, 89, 42) !important;
+    color: #fff!important;
+    padding: 5px 18px!important;
+    border: 0px!important;
+    font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif !important;
+    font-size: 15px !important;
+}
+button.button:hover {
+     color: #fff!important;
+    padding: 5px 18px!important; 
+    border: 0px!important;
+    background: #000 !important;
+	font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif !important;
+}
+
+
+article#post-75 .snip1361 h3, .types-of-room .snip1361 h3 {
+    padding: 12px 20px;
+    }
+article#post-75 p.view, .types-of-room p.view {
+    margin-bottom: -2px;
+    margin-left: 22px;
+    margin-top: -6px;
+}
+article#post-75 p.price, .types-of-room p.price {
+    margin-left: 21px;
+    margin-top: 6px;
+}
+#top-header .et-cart-info {
+    margin-left: 15px;
+    margin-top: -22px !important;
+    float: right;
+}
+.wptripadvisor_t1_DIV_2:before{display:none;}
+
+.awebooking-notice--success{    color: #20750d;
+    background-color: #57d03b75;
+    margin-bottom: 15px;
+    border: 1px solid #57d03b;}
+.awebooking-cart__buttons a.btn.button.awebooking-btn {
+    padding: 10px !important;
+    margin: 20px 0px;
+}
+.awebooking-cart__total {
+    border: 1px solid #ccc;
+    border-top: 0;
+    width: 100%;
+    margin-top: 14px;
+    text-align: left;
+    border-top: 1px solid #ccc;
+}
+.awebooking-loop-room-type__price span {
+    font-size: 22px;
+}
+.awebooking-loop-room-type__button {
+    font-size: 13px;
+    font-style: normal;
+    text-decoration: none;
+}
+.awebooking-loop-room-type__price {
+    font-weight: 100;
+}
+.awebooking-cart-item__media {
+    width: 100%;
+}
+.awebooking-cart-item__info {
+    width: 100%;
+    padding-left: 0px;
+}
+.awebooking-accordion {
+    background-color: #fafafa;
+    border: 1px solid #e3e3e3;
+    padding: 20px;
+    border-radius: 4px;
+}
+.awebooking-cart__total {
+    background-color: #fafafa;
+    border: 1px solid #e3e3e3;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.et_pb_widget a {
+    color: #f1592a;
+}
+.et_pb_widget a:hover {
+    color: #000;
+}
+p.awebooking-empty-cart {
+    background: #238be440;
+    padding: 10px;
+    color: #105e96;
+    border: 1px solid #105e96;
+    border-radius: 3px;
+}
+.woocommerce .woocommerce-info {
+    background: #cde21c2e;
+    color: #bbad09 !important;
+    border: 1px solid #f7e510 !important;
+    font-weight: 100 !important;
+    border-radius: 4px;
+    font-size: 15px !important;
+}
+.woocommerce-info.woocommerce-info a {
+    color: #f1592a!important;
+}
+@media (max-width: 768px){
+	span.mobile_menu_bar.mobile_menu_bar_toggle {
+    cursor: pointer;
+    color: #000;
+    background: #00000000;
+    margin-top: -19px;
+}
+	.woocommerce ul.order_details li{font-size: 13px;
+    line-height: 3;}
+	
+	button.chck{font-size:12px; padding;12px 20px; margin:28px auto;}
+	
+	.snip1361 figcaption{top:calc(50%);}
+	div#et_mobile_nav_menu{  
+    width: 44px;
+    height: 32px;
+    margin-bottom: 10px;
+    /* margin-top: -9px; */
+}
+div#et_mobile_nav_menu:before {
+	content: "\f039";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    
+	padding-bottom: 24px;
+	margin-bottom:18px;
+    color: #f1592a;
+}
+
+.mobile_nav.opened:before{	 position:absolute;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    
+	padding-bottom: 24px;
+	margin-top:-18px;
+    color: #f1592a;
+}
+
+
+
+	.et_mobile_menu{border-top:3px solid #f1592a; margin-top:12px;}
+	
+	
+	a.readmore_s{ margin-top:20px;
+    	display: block;
+}
+	.awebooking-room-type .awebooking-check-form {
+    padding: 0;
+    float: left;
+    width: 100%;
+    margin-top: 39px;
+	    padding-bottom: 20px;
+}
+	.wptripadvisor_t1_DIV_2{padding: 10px 10px 10px 10px;}
+ h1 {
+    font-size: 30px !important;
+	line-height:39px;
+}
+	h3.uk-h3 {
+    font-size: 40px;
+	}
+	div#flslidr .uk-margin p {
+    font-size: 20px;
+    line-height: 30px;
+}
+article#post-138 .awebooking-field.awebooking-arrival-field {
+    width: 100%;
+    float: none;
+}
+article#post-138 .awebooking-check-form.has-children .awebooking-sidebar-group .awebooking-field, .awebooking-check-form.has-infants .awebooking-sidebar-group .awebooking-field {
+    width: 100% !important;
+}
+article#post-138 button.awebooking-btn {
+    width: auto !important;
+    float: none;
+    position: initial;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding: 11px 26px;
+}
+article#post-138 .awebooking-field.awebooking-departure-field {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+article#post-576 .awebooking-field.awebooking-arrival-field {
+    width: 100%;
+    float: none;
+}
+article#post-576 .awebooking-check-form.has-children .awebooking-sidebar-group .awebooking-field, .awebooking-check-form.has-infants .awebooking-sidebar-group .awebooking-field {
+    width: 100% !important;
+}
+article#post-576 button.awebooking-btn {
+    width: auto !important;
+    float: none;
+    position: initial;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding: 11px 26px;
+}
+article#post-576 .awebooking-field.awebooking-departure-field {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+.awebooking-sidebar-group {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+}
+.awebooking-check-form {
+    padding: 20px 0px;
+	width:100%;
+    float: left;
+	margin-bottom:20px;
+}
+
+.awebooking-field-group {
+    position: relative;
+    width: 100%;
+    float: left;
+	text-align: center;
+}
+
+.et_pb_text_1 h1 {
+    font-size: 30px !important;
+}
+.center {
+    display: block;
+    margin: 0 auto !important;
+    text-align: center;
+    float: none;
+    width: 70%;
+    position: relative;
+}
+.snip1361{width:100%; min-width:100%; height:300px; max-width:100%;}
+
+
+
+div#beloslider .uk-margin p {
+    font-size: 20px;
+}
+.awebooking-room-type__check-form {background: #fff;
+    width: 100%;
+    float: left;
+}
+.awebooking-loop-room-type__info {
+    width: 100%;
+    float: left;
+    padding: 13px 18px;
+}
+.awebooking-loop-room-type__media {
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+}
+div#sidebar .awebooking-check-form {
+    padding: 24px 0px !important;
+    margin-bottom: 20px;
+}
+}
+
+
+@media (max-width: 400px){
+	
+	.center{width:100%;}
+	
+.awebooking-service__item span {
+    display: inline-block;
+    font-size: 16px;
+}
+}
+
+/*### css modified by amit 16-04-18 ###*/
+#form-title{
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.form-outer{
+    background-color: #fafafa;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+}
+.form-inner{
+    padding: 20px;
+}
+.form-inner label{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.form-inner .wpcf7-submit{
+    padding: 8px 23px;
+    width: 100%;
+    background: #f1592a;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 0;
+}
+.form-inner .wpcf7-submit:hover{
+    background: #000;
+}
+.form-inner .wpcf7-validates-as-number{
+    width: 100%;
+}
+.form-inner input, .form-inner textarea, .form-inner select{
+    width: 100%;
+    background-color: #fff;
+    padding: 7px 15px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    border: 1px solid #e4e4e4;
+    color: #333;
+}
+.form-inner input:focus, .form-inner textarea:focus{
+    border-color: #2d3940;
+}
+.form-inner label{
+    position: relative;
+}
+.form-inner .awebookingf-calendar{
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 63%;
+    color: #f1592a;
+    font-size: 14px;
+}
+.form-inner input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.form-inner select{
+    -webkit-appearance: none;
+}
+.form-inner select:focus{
+    border-color: #2d3940;
+}
+.form-inner .awebookingf-select{
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 68%;
+    color: #f1592a;
+    font-size: 10px;
+}
+.awebooking .ui-datepicker-prev>span,.awebooking .ui-datepicker-next>span{
+    width: 18px;
+    height: 18px;
+    margin-left: -8px; 
+    margin-top: -6px; 
+    line-height: 24px;
+    text-align: center;
+}
+.ui-datepicker{
+    z-index: 99999!important;
+}
+.wpcf7-mail-sent-ng{
+    background: #f22e4021;
+    color: #e41111 !important;
+    border: 1px solid #f71010 !important;
+    border-radius: 4px;
+    font-size: 16px !important;
+}
+.wpcf7-validation-errors{
+    background: #f22e4021;
+    color: #e41111 !important;
+    border: 1px solid #f71010 !important;
+    border-radius: 4px;
+    font-size: 16px !important;
+}
+/*.awebooking-loop-room-type__button{
+    color: #fff;
+    background-color: #f1592a;
+    border-color: #f1592a;
+    padding: 8px 20px;
+    font-size: 13px;
+    position: relative;
+    top: 15px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+.awebooking-loop-room-type__button:hover{ 
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}*/
+/*.awebooking-loop-room-type__button-booking{
+    display: none;
+}*/
+.awebooking-loop-room-type__button:hover{ 
+    color: #000;
+}
+.wpcf7-mail-sent-ok{
+    border: 1px solid #57d03b !important;
+    color: #20750d;
+    background: #57d03b75;
+    padding: 5px;
+    text-align: center;
+    border-radius: 4px;
+}
+article#post-934 .snip1361 h3 {
+    padding: 12px 20px;
+}
+article#post-934 p.view {
+    margin-bottom: -2px;
+    margin-left: 22px;
+    margin-top: -6px;
+}
+article#post-934 p.price {
+    margin-left: 21px;
+    margin-top: 6px;
+}
+/*### css modified by amit 19-04-18 ###*/
+.form-inner ::placeholder {
+    color: #666;
+}
+@media(max-width: 768px){
+    .form-outer{
+        margin-top: 30px;
+    }
+}
+/*#et-secondary-menu{
+    display: none;
+}*/
+.g-recaptcha{
+    transform: scale(0.77);
+    transform-origin: 0 0;
+    -webkit-transform: scale(0.77);
+    -webkit-transform-origin: 0 0;
+}
+.wpcf7-spam-blocked{
+    background: #f22e4021;
+    color: #e41111 !important;
+    border: 1px solid #f71010 !important;
+    border-radius: 4px;
+    font-size: 16px !important;
+}
+.awebooking-calendar .ui-datepicker .ui-state-disabled span, .ui-datepicker.awebooking-datepicker .ui-state-disabled span{
+    opacity: 1;
+}
+/*####### css override on 05-05-18 #######*/
+.ui-accordion .ui-accordion-header{
+    border: 1px solid #bbb !important;
+    border-radius: 3px;
+    background: #ece7e7;
+    margin-bottom: 6px !important;
+    font-style: normal !important;
+}
+.ui-accordion .ui-accordion-header-active{
+    border: 1px solid #bbb !important;
+    border-radius: 3px;
+    background: #fff;
+    font-style: normal !important;
+}
+.ui-accordion .ui-accordion-content{
+    padding: .5em .1em .5em .1em !important;
+}
+.ui-accordion .awebooking-cart-item__reservation-title{
+    font-style: normal;
+    text-decoration: none;
+}
+.ui-accordion .awebooking-cart-item__edit{
+    display: none!important;
+}
+.ui-accordion .awebooking-cart-item__remove{
+    float: left!important;
+}
+.ui-accordion .awebooking-cart-item__price{
+    color: #333;
+    font-style: normal;
+    font-weight: 100 !important;
+}
+.ui-accordion strong{
+    color: #333;
+}
+.button{
+    font-weight: 100 !important;
+}
+.awebooking-cart .ui-widget{
+    font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif !important;
+}
+.ui-accordion p{
+    font-size: 13px;
+}
+.ui-accordion .awebooking-cart-item__price .woocommerce-Price-amount{
+    font-size: 1.25rem;
+}
+.custom-vertical-align { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+.custom-ul-list{
+    line-height: 36px!important;
+    padding-left: 20px!important;
+}
+.custom-ul-list li::before {
+    content: "â€¢"; 
+    color: #f1592a;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+} 
