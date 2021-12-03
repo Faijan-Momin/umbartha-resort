@@ -15,7 +15,7 @@ Template: samaaresorts
 	src: url(fonts/Oswald-Regular.eot) format("embedded-opentype"), url(fonts/Oswald-Regular.woff2) format("woff2"), url(fonts/Oswald-Regular.woff) format("woff"), url(fonts/Oswald-Regular.ttf) format("truetype"), url(fonts/Oswald-Regular.svg#Oswald-Regular) format("svg")
 }
 a {
-    color: #f1592a;}
+    color: #38B000;}
 body {
     letter-spacing: .8px;
     font-weight: normal !important;
@@ -25,7 +25,7 @@ h1 {
     font-family: oswald-regular, Helvetica, Arial, Lucida, sans-serif;
     font-size: 48px;
 }
-.ornge{color:#f1592a !important;}
+.ornge{color:#38B000 !important;}
 article#post-75 li:before {
     content: "\f105";
     font-family: FontAwesome;
@@ -46,7 +46,7 @@ div#et-info {
     float: right;
 }
 div#footer-info a {
-    color: #f1592a;
+    color: #38B000;
     font-weight: 100;
 }
 /*cart page table*/
@@ -60,7 +60,7 @@ h1.awebooking-informations__title {
 }
 /*header menu*/
 ul#top-menu li.current-menu-item a {
-    background: #f1592a;
+    background: #38B000;
     color: #ffff;
     padding: 8px 35px;
     height: 16px;
@@ -252,8 +252,8 @@ div#sidebar button.awebooking-btn {
 }
 .awebooking-loop-room-type__button-booking{
     color: #fff;
-    background-color: #f1592a;
-    border-color: #f1592a;
+    background-color: #38B000;
+    border-color: #38B000;
     border-radius: 3px;
 }
 .awebooking-loop-room-type__button-booking:hover {
@@ -274,11 +274,11 @@ div#container {
 	border-radius: 4px;
 }
 .awebooking-field-group .awebookingf, .awebooking-field-group .fa, .awebooking-field-group .icon {
-    color: #f1592a;
+    color: #38B000;
 }
 button.awebooking-btn {
 	cursor:pointer;
-    background: #f1592a;
+    background: #38B000;
     border: 0;
     color: #fff;
     margin-top: 12px;
@@ -356,7 +356,7 @@ button.awebooking-btn:hover {
 	font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif;
     text-transform: uppercase;
     padding: 20px 20px;
-    color: #f1592a;
+    color: #38B000;
 }
 .snip1361 p {
   font-size: 0.9em;
@@ -389,7 +389,7 @@ button.awebooking-btn:hover {
 	font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif;
 }
 p.vw_rooms{
-	background: #f1592a;
+	background: #38B000;
     width: 100% !important;
     text-align: center;
     padding: 25px;
@@ -438,10 +438,10 @@ a.wprs_unslider-arrow {
     margin-top: -60px;
 }
 a.ta_morelink {
-    color: #f1592a;
+    color: #38B000;
 }
 span#et-info-email {
-    color: #f1592a;
+    color: #38B000;
 }
 
 div#footer-info {
@@ -456,7 +456,7 @@ h1.awebooking-room-type__title.h2 {
     font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif;
     text-transform: uppercase;
     padding: 29px 0 10px 10px;
-    color: #f1592a;
+    color: #38B000;
 }
  .awebooking-room-type__header .awebooking-room-type__price {
     border-bottom: none;
@@ -473,10 +473,10 @@ h1.awebooking-room-type__title.h2 {
     color: #ffffff;
     opacity: 1;
     font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif;
-    background: #f1592a;
+    background: #38B000;
 }
 article#post-7 input.awebooking-btn {
-    background: #f1592a;
+    background: #38B000;
     border: 0;
     color: #fff;
     margin-top: 18px;
@@ -487,7 +487,7 @@ article#post-7 input.awebooking-btn {
 article#post-7 input.awebooking-btn:hover {background:#000;
 }
 button#place_order{
-    background: #f1592a;
+    background: #38B000;
     border: 0;
     color: #fff;
     margin-top: 18px;
@@ -498,7 +498,7 @@ button#place_order:hover{background:#000;}
 
 
 
-.mobile_menu_bar:before{color: #f1592a;}
+.mobile_menu_bar:before{color: #38B000;}
 
 
 .uk-panel-teaser, .uk-panel-title {
@@ -517,7 +517,7 @@ button#place_order:hover{background:#000;}
     transform: scale(1) rotate(0deg);
 }
 .uk-dotnav>li>a{
-    border: 2px solid #f1592a !important;
+    border: 2px solid #38B000 !important;
 }
 .uk-dotnav-contrast>*>* {
     background: #1b1b1b82;
@@ -530,14 +530,14 @@ button#place_order:hover{background:#000;}
     background: rgb(241, 89, 42);
 }
 .uk-dotnav-contrast>*>* {
-    background: #f1592a1f;
+    background: #38B0001f;
 }
 
 .uk-dotnav>.uk-active>* {
     background: rgb(241, 89, 42);
 }
 .wprs_unslider-nav ol li.wprs_unslider-active {
-    background: #f1592a;
+    background: #38B000;
 }
 .wprs_unslider-nav ol li {
     width: 15px;
@@ -545,7 +545,7 @@ button#place_order:hover{background:#000;}
     margin: 0 4px;
     background: transparent;
     border-radius: 10px !important;
-    border: 2px solid #f1592a;
+    border: 2px solid #38B000;
     cursor: pointer;
 }
 .et_right_sidebar #sidebar {
@@ -577,7 +577,7 @@ ul#menu-footer {
     /* display: inline-block; */
     -webkit-font-smoothing: antialiased;
     font: normal 16px/1 'dashicons';
-    color: #f1592a;
+    color: #38B000;
     margin-right: 10px;
     word-wrap: break-word;
 }
@@ -598,10 +598,10 @@ button.awebooking-btn {
     font-size: 16px;
 }
 nav.woocommerce-MyAccount-navigation li a {
-    color: #f1592a;
+    color: #38B000;
 }
 a.button.pay {
-    background: #f1592a;
+    background: #38B000;
     border: 0px;
     color: #fff;
     font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif !important;
@@ -614,7 +614,7 @@ a.woocommerce-button.button:hover{border:0;padding:8px 23px;}
 a.woocommerce-button.button {
     /* float: left; */
     margin-left: 10px;
-    background: #f1592a;
+    background: #38B000;
     border: 0px;
     color: #fff;
     font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif !important;
@@ -658,7 +658,7 @@ a.woocommerce-button.button.cancel{padding: 8px 23px;}
     border-radius: 4px;
     font-size: 16px !important;}
 button.woocommerce-Button.button {
-    background: #f1592a;
+    background: #38B000;
     border: 0px;
     color: #fff;
     font-family: 'oswald-regular',Helvetica,Arial,Lucida,sans-serif !important;
@@ -768,7 +768,7 @@ article#post-75 p.price, .types-of-room p.price {
 }
 
 .et_pb_widget a {
-    color: #f1592a;
+    color: #38B000;
 }
 .et_pb_widget a:hover {
     color: #000;
@@ -789,7 +789,7 @@ p.awebooking-empty-cart {
     font-size: 15px !important;
 }
 .woocommerce-info.woocommerce-info a {
-    color: #f1592a!important;
+    color: #38B000!important;
 }
 @media (max-width: 768px){
 	span.mobile_menu_bar.mobile_menu_bar_toggle {
@@ -820,7 +820,7 @@ div#et_mobile_nav_menu:before {
     
 	padding-bottom: 24px;
 	margin-bottom:18px;
-    color: #f1592a;
+    color: #38B000;
 }
 
 .mobile_nav.opened:before{	 position:absolute;
@@ -832,12 +832,12 @@ div#et_mobile_nav_menu:before {
     
 	padding-bottom: 24px;
 	margin-top:-18px;
-    color: #f1592a;
+    color: #38B000;
 }
 
 
 
-	.et_mobile_menu{border-top:3px solid #f1592a; margin-top:12px;}
+	.et_mobile_menu{border-top:3px solid #38B000; margin-top:12px;}
 	
 	
 	a.readmore_s{ margin-top:20px;
@@ -1005,7 +1005,7 @@ div#sidebar .awebooking-check-form {
 .form-inner .wpcf7-submit{
     padding: 8px 23px;
     width: 100%;
-    background: #f1592a;
+    background: #38B000;
     text-transform: uppercase;
     color: #fff;
     border-radius: 3px;
@@ -1038,7 +1038,7 @@ div#sidebar .awebooking-check-form {
     z-index: 1;
     right: 10px;
     top: 63%;
-    color: #f1592a;
+    color: #38B000;
     font-size: 14px;
 }
 .form-inner input[type=number]::-webkit-inner-spin-button, 
@@ -1057,7 +1057,7 @@ input[type=number]::-webkit-outer-spin-button {
     z-index: 1;
     right: 10px;
     top: 68%;
-    color: #f1592a;
+    color: #38B000;
     font-size: 10px;
 }
 .awebooking .ui-datepicker-prev>span,.awebooking .ui-datepicker-next>span{
@@ -1087,8 +1087,8 @@ input[type=number]::-webkit-outer-spin-button {
 }
 /*.awebooking-loop-room-type__button{
     color: #fff;
-    background-color: #f1592a;
-    border-color: #f1592a;
+    background-color: #38B000;
+    border-color: #38B000;
     padding: 8px 20px;
     font-size: 13px;
     position: relative;
@@ -1213,7 +1213,7 @@ article#post-934 p.price {
 }
 .custom-ul-list li::before {
     content: "â€¢"; 
-    color: #f1592a;
+    color: #38B000;
     display: inline-block; 
     width: 1em;
     margin-left: -1em;
