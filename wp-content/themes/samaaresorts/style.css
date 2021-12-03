@@ -3610,7 +3610,7 @@ ul.et_pb_side_nav .side_nav_item a.active {
 }
 
 .et_pb_scroll_top:before {
-    content: "55"
+    content: "↑"
 }
 
 .et_pb_scroll_top.et-visible {
